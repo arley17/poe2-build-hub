@@ -25,8 +25,15 @@ Quando uma informação não estiver presente nas fontes:
 
 ---
 
+## 🌐 Acesso em Produção & Repositório
+- **Aplicação Web (Produção Netlify)**: [https://poe2-build-hub.netlify.app](https://poe2-build-hub.netlify.app)
+- **Repositório GitHub**: [https://github.com/arley17/poe2-build-hub](https://github.com/arley17/poe2-build-hub)
+
+---
+
 ## 📚 Documentação Técnica
 Acesse a pasta `/docs` para mais detalhes:
+- [Guia de Deployment e CI/CD](docs/deployment.md)
 - [Arquitetura Geral](docs/architecture.md)
 - [Modelo de Dados](docs/data-model.md)
 - [Estratégia de Banco de Dados](docs/database.md)

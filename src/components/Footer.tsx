@@ -66,7 +66,7 @@ export const Footer: React.FC<Props> = ({ onNavigate }) => {
             <div className="inline-flex items-center gap-2 px-2.5 py-1 rounded bg-slate-900 border border-slate-800 text-[11px] font-mono text-amber-300">
               <span>Patch Atual: 0.1.2</span>
               <span>•</span>
-              <span className="text-slate-400">Hub Core v0.1.0</span>
+              <span className="text-emerald-400 font-semibold">Hub Core v1.0.0 (Production)</span>
             </div>
           </div>
         </div>

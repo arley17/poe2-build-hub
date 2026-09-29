@@ -38,3 +38,6 @@ secrets.json
 *.sln
 *.sw?
 Thumbs.db
+
+# Local Netlify folder
+.netlify
