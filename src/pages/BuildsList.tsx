@@ -30,8 +30,8 @@ export const BuildsList: React.FC<Props> = ({ onNavigate }) => {
     load();
   }, []);
 
-  const classes = ['ALL', 'Ranger', 'Mercenary', 'Warrior', 'Witch', 'Monk', 'Sorceress'];
-  const patches = ['ALL', '0.1.2', '0.1.0'];
+  const classes = ['ALL', 'Huntress', 'Mercenary', 'Ranger', 'Warrior', 'Witch', 'Monk', 'Sorceress'];
+  const patches = ['ALL', '0.5.5', '0.1.2', '0.1.0'];
   const statuses = ['ALL', 'UPDATED', 'NEEDS_REVIEW', 'OUTDATED'];
 
   const filteredBuilds = builds.filter((b) => {

@@ -2,6 +2,24 @@
 
 Este changelog segue as diretrizes do [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/).
 
+## [0.3.0] - 2026-09-29
+
+### Added
+- **Nova Build Oficial:** `[0.5.5] Twister Spirit Walker - Saga Liso to Mirror` por ChibaTTV (Nível 98, liga Runes of Aldur) com 4 variantes detalhadas de progressão.
+- **12 Novas Fontes Controladas Ingeridas:**
+  - Vídeos da saga "Liso to Mirror" cobrindo testes de league starter, campanha, aquisição de Headhunter e Mirror Spear, além de sessões de refúgio.
+- **3 Novas Receitas de Crafting:**
+  - `Crafts Inclusivos para os Pobres`: confecção de entrada nos atos por menos de 10 Chaos.
+  - `Crafts para a Classe Média`: peças com Deflection Rating proporcional à Evasão, 3x Perfect Iron Rune e mods Bonded de Shaman.
+  - `Anel de Breach com Qualidade Máxima`: base de Breach Ring com implícito de +20% à qualidade máxima e dano plano duplo (Frio + Raio).
+- **3 Novas Rotas de Farm Mapeadas:**
+  - Farm de Abismo (Abyss) no Early Endgame.
+  - Farm de Fendas (Breach) com Headhunter e Twister em alta velocidade.
+  - Delirium BossRush & Leech Farm de Fendas (XP, Ouro e Hiveblood gratuitos).
+- **Nova Divergência Técnica Registrada:**
+  - Comparativo entre Twister Gemling Legionnaire (SnooBAE85) e Twister Spirit Walker (ChibaTTV) quanto aos métodos de escalonamento no Patch 0.5.5.
+- **Atualização de Filtros na UI:** Suporte aos filtros da classe `Huntress` e Patch `0.5.5` no catálogo de builds.
+
 ## [0.2.0] - 2026-09-28
 
 ### Added
