@@ -1,0 +1,3 @@
+@echo off
+echo Iniciando POE2 Build Hub...
+start "" "http://localhost:5173"

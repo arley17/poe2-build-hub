@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="dark" />
+    <meta name="description" content="POE2 Build Hub — Wiki inteligente, modular e versionada de Path of Exile 2 baseada em fontes controladas, tracking de patches, rotas de farm e guias de crafting." />
+    <meta name="keywords" content="Path of Exile 2, POE2, Builds, Guias, Crafting, Farm, Leveling, Patch Notes, Ascendancy, Skills" />
+    <title>POE2 Build Hub — Wiki Inteligente & Versionada</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;900&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  </head>
+  <body class="bg-[#0b0e14] text-[#e2e8f0] antialiased">
+    <div id="root">
+      <!-- Fallback automático caso aberto como arquivo cru file:// -->
+      <div id="file-protocol-warning" style="display:none; min-height: 100vh; background: #07090d; color: #e2e8f0; font-family: 'Outfit', sans-serif; padding: 40px 20px; text-align: center;">
+        <div style="max-width: 600px; margin: 40px auto; background: #121722; border: 1px solid #d4a373; border-radius: 12px; padding: 32px; box-shadow: 0 10px 30px rgba(0,0,0,0.7);">
+          <div style="font-size: 32px; margin-bottom: 12px;">⚔️</div>
+          <h2 style="font-family: 'Cinzel', serif; color: #d4a373; font-size: 24px; margin-bottom: 12px;">POE2 BUILD HUB</h2>
+          <p style="font-size: 14px; color: #cbd5e1; margin-bottom: 20px; line-height: 1.6;">
+            Você abriu o arquivo de código-fonte diretamente pelo Windows Explorer (<strong>file:///</strong>). O navegador não compila arquivos TypeScript (.tsx) sem o servidor ativo.
+          </p>
+          <div style="margin-bottom: 24px;">
+            <a href="http://localhost:5173" style="display: inline-block; background: linear-gradient(180deg, #d4a373 0%, #a47138 100%); color: #07090d; font-weight: 700; padding: 12px 24px; border-radius: 6px; text-decoration: none; font-size: 15px; box-shadow: 0 4px 15px rgba(212, 163, 115, 0.4);">
+              🚀 Acessar http://localhost:5173
+            </a>
+          </div>
+          <p style="font-size: 12px; color: #94a3b8;">
+            Ou dê um duplo clique no arquivo <strong>abrir-poe2-hub.bat</strong> na pasta raiz do projeto.
+          </p>
+        </div>
+      </div>
+      <script>
+        if (window.location.protocol === 'file:') {
+          var warningEl = document.getElementById('file-protocol-warning');
+          if (warningEl) warningEl.style.display = 'block';
+          // Tentar redirecionar automaticamente se dist/index.html existir
+          if (window.location.pathname.indexOf('/dist/') === -1) {
+            window.location.href = './dist/index.html';
+          }
+        }
+      </script>
+    </div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
