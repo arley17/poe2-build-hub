@@ -284,7 +284,7 @@ export const PatchNotesList: React.FC<Props> = ({ onNavigate }) => {
                   required
                   value={rawText}
                   onChange={(e) => setRawText(e.target.value)}
-                  placeholder="Lightning Arrow: Dano aumentado em 5%&#10;Snipe: Reduzido dano base em 3%"
+                  placeholder="Twister: Dano elemental aumentado em 10%&#10;Frost Wall: Ajustado tempo de colisão de projéteis"
                   className="w-full bg-slate-950 border border-slate-700 rounded px-3 py-2 text-slate-200 outline-none focus:border-amber-500 font-mono"
                 />
               </div>

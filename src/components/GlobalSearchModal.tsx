@@ -128,7 +128,7 @@ export const GlobalSearchModal: React.FC<Props> = ({ isOpen, onClose, onNavigate
 
           {!loading && !query && (
             <div className="py-8 text-center text-slate-500 text-xs">
-              Digite uma palavra-chave como <span className="text-amber-400">"Lightning Arrow"</span>, <span className="text-sky-400">"Deadeye"</span>, <span className="text-emerald-400">"Craft"</span> ou <span className="text-rose-400">"0.1.2"</span>
+              Digite uma palavra-chave como <span className="text-amber-400">"Twister"</span>, <span className="text-sky-400">"Gemling"</span>, <span className="text-emerald-400">"Spirit Walker"</span> ou <span className="text-rose-400">"0.5.5"</span>
             </div>
           )}
 

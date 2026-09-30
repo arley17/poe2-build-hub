@@ -20,6 +20,13 @@ Este changelog segue as diretrizes do [Keep a Changelog](https://keepachangelog.
   - Comparativo entre Twister Gemling Legionnaire (SnooBAE85) e Twister Spirit Walker (ChibaTTV) quanto aos métodos de escalonamento no Patch 0.5.5.
 - **Atualização de Filtros na UI:** Suporte aos filtros da classe `Huntress` e Patch `0.5.5` no catálogo de builds.
 
+### Removed
+- **Foco Exclusivo em Twister:** Removidas todas as entidades não correlatas a Twister:
+  - Builds: Lightning Arrow Deadeye Starter e Mercenary Crossbow Grenadier.
+  - Fontes: Guias e patches genéricos anteriores (src-1 a src-6).
+  - Receitas e Rotas: Confecção de Arco Elemental e Rota de Ritual & Breach de Deadeye.
+  - Patches: Versões 0.1.0 e 0.1.2 não aplicáveis ao ecossistema atual de Twister (Patch 0.5.5 retido).
+
 ## [0.2.0] - 2026-09-28
 
 ### Added
